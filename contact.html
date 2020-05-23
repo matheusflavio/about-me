@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body class="my-bg">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Matheus Flávio</a>          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Página Inicial <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-me.html">Sobre mim</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+    <h1 class="text-center">Contato</h1>
+
+            <h3 class="titulo-secundario">Enviar mensagem</h3>
+            <p class="texto text-black">Deseja me contatar? Preencha o formulário abaixo com seu nome e e-mail, envie sua mensagem e responderei o mais rápido possível!</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="seu@email.com" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">Seu e-mail não será divulgado em nenhum local.</small>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+					<textarea class="form-control" id="mensagem" name="mensagem" rows="5" cols="60" placeholder="Digite aqui sua mensagem" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <h3 class="titulo-secundario">Redes sociais</h3>
+            <p class="texto">Você também pode me adicionar nas principais redes sociais!</p>
+            <div class="d-flex justify-content-between">
+                <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+                    <img src="img/instagram.jpg" class="card-img-top" alt="Logo do Instagram">
+                    <div class="card-body social">
+                    <h5 class="card-title">Instagram</h5>
+                    <a href="https://www.instagram.com/flaviotheuss/" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+                    <img src="img/linkedin.jpg" class="card-img-top" alt="Logo do LinkedIn">
+                    <div class="card-body social">
+                    <h5 class="card-title">LinkedIn</h5>
+                    <a href="https://www.linkedin.com/in/matheus-flávio-gonçalves-silva-9b02761a9/" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="width: 18rem;">
+                    <img src="img/github.png" class="card-img-top" alt="Logo do GitHub">
+                    <div class="card-body social">
+                    <h5 class="card-title">GitHub</h5>
+                    <a href="https://github.com/matheusflavio" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <footer class="text-center my-bg">
+        <hr>
+        <p>Matheus Flávio &copy; 2020 &reg;</p>
+    </footer>
+</body>
+</html>
